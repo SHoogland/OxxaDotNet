@@ -14,3 +14,5 @@ configuration: Release
 
 build:
   verbosity: normal
+
+test: off
