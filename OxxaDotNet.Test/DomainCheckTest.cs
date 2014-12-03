@@ -6,7 +6,7 @@ namespace OxxaDotNet.Test {
     public class DomainCheckTest {
         [Fact]
         public void DomainCheck() {
-            var testDomainSld = "chatbotratchet";
+            var testDomainSld = "google";
             var testDomainTld = "com";
 
             var client = new OxxaClient(Environment.GetEnvironmentVariable("oxxa_auth_username"),
@@ -16,6 +16,7 @@ namespace OxxaDotNet.Test {
                 Tld = testDomainTld
             });
 
+            Assert.Equal("", response.details);
             Assert.Equal("domain_check", response.Command);
             Assert.Equal("Domeinnaam is bezet.", response.StatusDescription);
             Assert.Equal("XMLOK 10", response.StatusCode);

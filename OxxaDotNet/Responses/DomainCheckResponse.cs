@@ -25,6 +25,7 @@ namespace OxxaDotNet.Responses {
         public string StatusCode { get; set; }
         public string StatusDescription { get; set; }
         public double Price { get; set; }
+        public string details { get; set; }
         public bool OrderComplete { get; set; }
         public bool Done { get; set; }
     }

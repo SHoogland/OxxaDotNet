@@ -40,6 +40,13 @@ namespace OxxaDotNet {
             response.OrderComplete = orderNode.SelectSingleNode("order_complete").InnerText == "TRUE" ? true : false;
             response.Done = orderNode.SelectSingleNode("done").InnerText == "TRUE" ? true : false;
 
+            if (orderNode.SelectSingleNode("details") != null) {
+                response.details = orderNode.SelectSingleNode("details").InnerText;
+            }
+            else {
+                response.details = "";
+            }
+
             return response;
         }
     }
