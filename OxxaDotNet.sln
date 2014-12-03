@@ -6,6 +6,9 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OxxaDotNet", "OxxaDotNet\OxxaDotNet.csproj", "{DD710886-3A54-4365-8584-C7DAB2AA2A64}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OxxaDotNet.Test", "OxxaDotNet.Test\OxxaDotNet.Test.csproj", "{9645D9F4-73E1-4BFD-8D3B-98BDB7C644F0}"
+	ProjectSection(ProjectDependencies) = postProject
+		{DD710886-3A54-4365-8584-C7DAB2AA2A64} = {DD710886-3A54-4365-8584-C7DAB2AA2A64}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
