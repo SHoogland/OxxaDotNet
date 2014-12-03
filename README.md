@@ -28,7 +28,7 @@ Functionalities (API Commands):
 - [ ] DOMAIN_DEL
 - [ ] DOMAIN_EPP
 - [ ] DOMAIN_INF
-- [ ] DOMAIN_LIST
+- [x] DOMAIN_LIST
 - [ ] DOMAIN_NS_UPD
 - [ ] DOMAIN_PUSH
 - [ ] DOMAIN_RESTORE

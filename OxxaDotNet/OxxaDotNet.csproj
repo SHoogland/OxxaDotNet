@@ -49,7 +49,15 @@
     <Compile Include="OxxaEndpoints.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Requests\DomainCheckRequest.cs" />
-    <Compile Include="Responses\DomainCheckResponse.cs" />
+    <Compile Include="Requests\DomainListRequest.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Responses\DomainCheckResponse.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Responses\DomainListResponse.cs">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

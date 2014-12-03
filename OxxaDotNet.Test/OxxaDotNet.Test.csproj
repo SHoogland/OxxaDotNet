@@ -52,6 +52,7 @@
   </Choose>
   <ItemGroup>
     <Compile Include="DomainCheckTest.cs" />
+    <Compile Include="DomainListTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
