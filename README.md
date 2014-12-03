@@ -1,6 +1,8 @@
 OxxaDotNet
 ==========
 
+[![Build status](https://ci.appveyor.com/api/projects/status/qqfbueid5o62fa53?svg=true)](https://ci.appveyor.com/project/StephanHoogland/oxxadotnet)
+
 A C# Client Library for the Oxxa.com API
 
 Functionalities (API Commands):
