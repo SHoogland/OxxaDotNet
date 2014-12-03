@@ -1,10 +1,12 @@
 version: 1.0.{build}
 
 environment:
-  oxxa_auth_username:
-    secure: A/SK05sK5cCkDOUh1IYWCA==
-  oxxa_auth_password:
-    secure: Rp1XFgHOe/xuhmee5SnZlVCADkLMDqFpxuqgDcpQtVhTnLHeTkb7hK5dOc5LvZYd
+  global:
+    oxxa_auth_username:
+      secure: A/SK05sK5cCkDOUh1IYWCA==
+    oxxa_auth_password:
+      secure: Rp1XFgHOe/xuhmee5SnZlVCADkLMDqFpxuqgDcpQtVhTnLHeTkb7hK5dOc5LvZYd
+
 
 platform: Any CPU
 
