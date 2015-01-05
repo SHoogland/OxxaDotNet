@@ -58,8 +58,6 @@ namespace OxxaDotNet {
             var response = new DomainListResponse();
             response.OrderId = orderNode.SelectSingleNode("order_id").InnerText;
             response.Command = orderNode.SelectSingleNode("command").InnerText;
-            //response.Sld = orderNode.SelectSingleNode("sld").InnerText ?? "";
-            //response.Tld = orderNode.SelectSingleNode("tld").InnerText ?? "";
             response.StatusCode = orderNode.SelectSingleNode("status_code").InnerText;
             response.StatusDescription = orderNode.SelectSingleNode("status_description").InnerText;
             response.Price = double.Parse(orderNode.SelectSingleNode("price").InnerText);

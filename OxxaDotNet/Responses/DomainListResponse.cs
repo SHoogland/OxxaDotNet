@@ -24,22 +24,6 @@ namespace OxxaDotNet.Responses {
         public string Command { get; set; }
 
         /// <summary>
-        /// The SLD (Second Level Domain): 'example' in example.org.
-        /// </summary>
-        /// <value>
-        /// The SLD.
-        /// </value>
-        public string Sld { get; set; }
-
-        /// <summary>
-        /// The TLD (Top Level Domain): 'org' in example.org.
-        /// </summary>
-        /// <value>
-        /// The TLD.
-        /// </value>
-        public string Tld { get; set; }
-
-        /// <summary>
         /// Gets or sets the status code.
         /// </summary>
         /// <value>
